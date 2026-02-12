@@ -23,10 +23,10 @@
 * Return the connection to be used elsewhere
 
 # Initializing database function
-> Get the database with the previously created function and save it as a variable
-> Get the database cursor from our database.
-> Create all our default tables, make sure to use IF NOT EXISTS or data will be overwritten on every app startup.
-> Commit changes using our database variable
-> Close the connection using our database variable
+* Get the database with the previously created function and save it as a variable
+* Get thedatabase cursor from our database.
+* Create all our default tables, make sure to use IF NOT EXISTS or data will be overwritten on every app startup.
+* Commit changes using our database variable
+* Close the connection using our database variable
 
 
